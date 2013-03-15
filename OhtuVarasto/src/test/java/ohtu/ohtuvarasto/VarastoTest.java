@@ -99,6 +99,6 @@ public class VarastoTest {
     public void eiSaadaLiikaaJosYritetaanOttaaEnemmanKuinVarastossa(){
         varasto.lisaaVarastoon(5);
         double maara = varasto.otaVarastosta(7);
-        assertEquals(5, maara, vertailuTarkkuus);
+        assertEquals(0, maara, vertailuTarkkuus);
     }
 }
